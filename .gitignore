@@ -23,6 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Ignore the amplify project so that it never accidentally gets checked in
+amplify/
+
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*

@@ -11,7 +11,7 @@ describe('App', () => {
     Amplify.configure(awsExports);
   });
 
-  it('renders', async () => {
+  it('renders sign in page', async () => {
     render(<App />);
 
     const signInHeader = await screen.findByText('Sign In');

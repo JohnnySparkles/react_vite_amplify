@@ -6,7 +6,7 @@ export const App = () => {
 
   return (
     <>
-      <h1>Hunter</h1>
+      <h1>React + Vite + Amplify</h1>
       <div className="card">
       </div>
     </>
